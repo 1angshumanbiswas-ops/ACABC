@@ -1,0 +1,27 @@
+# Schema map for the record-level ACABC file (AIKosh dataset a6dd19e7-89b7-4348-85fb-ccbf07af94fc).
+# Copy to schema_map.toml, fill in once the real file and its columns are known, then run:
+#   python scripts/map_schema.py acabc_profile.json      # suggests a mapping from the profile
+#   python scripts/ingest_check.py path/to/file.csv config/schema_map.toml
+#
+# Nothing is ingested unless rights are confirmed. Leave fields out if the file does not have them:
+# the app then disables the matching views (for example no district => no district drill-down).
+
+[rights]
+confirmed = false                 # M0 gate: set true only after licence and permitted use are confirmed in writing
+licensed_use = ""                 # e.g. "Analytical decision support for MoAFW/MANAGE analysts, aggregates only"
+authority = ""                    # who granted access
+
+[dataset]
+version = "acabc-record-level-YYYY-MM-DD"
+
+[units]
+assistance_amount = "rupee"       # rupee | lakh | crore: the unit the file uses
+
+[fields]                          # logical field = actual column name in the file
+state = "REPLACE_ME"
+assistance_amount = "REPLACE_ME"
+# beneficiary_key = "REPLACE_ME"  # hashed on load, never stored raw
+# project_key = "REPLACE_ME"
+# enterprise_type = "REPLACE_ME"
+# district = "REPLACE_ME"
+# event_date = "REPLACE_ME"

@@ -1,0 +1,25 @@
+{
+  "_note": "Seed passages paraphrased from the project's own research documents. They are NOT official circular text. Each carries verification_status; no passage here states a subsidy rate, ceiling, margin or eligibility rule, so questions on those must abstain until a dated operative circular is curated into this corpus.",
+  "documents": [
+    {"id": "manage-programme-description", "authority": "MANAGE", "title": "Agri-Clinics and Agri-Business Centres: programme description",
+     "source_url": "https://www.agriclinics.net/", "effective_date": null, "superseded_by": null, "operative_verified": false,
+     "verification_status": "paraphrased_from_project_documents",
+     "passage": "ACABC is a Government of India programme that uses the expertise of qualified agricultural professionals to set up agri-clinics and agri-business centres and to extend professional services to farmers. MANAGE publishes the programme guidance."},
+    {"id": "manage-loan-caution", "authority": "MANAGE", "title": "Programme description: loan caution",
+     "source_url": "https://www.agriclinics.net/", "effective_date": null, "superseded_by": null, "operative_verified": false,
+     "verification_status": "paraphrased_from_project_documents",
+     "passage": "The scheme makes training and access to credit possible but does not guarantee a bank loan. Sanction depends on project viability and the financing institution."},
+    {"id": "manage-compendium-2025", "authority": "MANAGE", "title": "Revised ACABC implementation compendium 2025 (listing)",
+     "source_url": "https://www.agriclinics.net/OCGOI.aspx", "effective_date": null, "superseded_by": null, "operative_verified": false,
+     "verification_status": "listing_only_effective_date_to_confirm",
+     "passage": "The MANAGE site lists a revised ACABC implementation compendium for 2025 among the scheme orders and circulars. Its effective date and operative provisions have not been confirmed in this corpus."},
+    {"id": "jansamarth-acabc-2026", "authority": "Ministry of Finance / PIB", "title": "JanSamarth national portal release, 30 March 2026",
+     "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247026&lang=1&reg=3", "effective_date": "2026-03-30", "superseded_by": null, "operative_verified": false,
+     "verification_status": "paraphrased_from_project_documents",
+     "passage": "The Ministry of Finance reported on 30 March 2026 that ACABC is among the credit-linked schemes available through the JanSamarth portal."},
+    {"id": "nabard-xii-f-status", "authority": "NABARD", "title": "ACABC progress and subsidy distribution, Annexure XII-F, status 30 September 2026",
+     "source_url": "https://www.agriclinics.net/GCDocuments/239.pdf", "effective_date": "2026-09-30", "superseded_by": null, "operative_verified": false,
+     "verification_status": "paraphrased_from_project_documents",
+     "passage": "NABARD publishes a state-wise annexure of ACABC subsidy schemes and subsidy released, with a financial-year-to-date table and a cumulative table. These are subsidy-reporting aggregates, not counts of every graduate or every venture."}
+  ]
+}

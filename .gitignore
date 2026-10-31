@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Restricted data and secrets: never commit
+downloads/
+*.env
+.env*
+acabc_profile.json
+config/schema_map.toml
+*.jsonl

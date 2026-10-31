@@ -1,0 +1,34 @@
+{
+  "_note": "Official published aggregates only. Each record keeps agency, scope, reference date, unit and whether it is cumulative or fiscal-year-to-date. Never average across sources.",
+  "benchmarks": [
+    {"id": "mis_2026-10-26", "agency": "ACABC MIS (DA&FW)", "source_url": "https://acabcmis.gov.in/",
+     "reference_date": "2026-10-26", "scope": "cumulative_since_launch",
+     "values": {"trained": 96306, "ventures": 42916},
+     "units": {"trained": "persons", "ventures": "ventures"},
+     "detail": {
+       "era_2002_2017": {"trained": 56543, "ventures": 25748},
+       "era_2018_onward_mis": {"trained": 39763, "ventures": 17168, "registered": 80194, "approved_by_manage": 41209, "subsidy_cases": 554},
+       "fy_2026_27": {"trained": 0, "ventures": 34, "registered": 1064, "approved_by_manage": 0, "subsidy_cases": 6}
+     }},
+    {"id": "manage_statewise_2026-10-01", "agency": "MANAGE", "source_url": "https://www.agriclinics.net/OtherDocuments/state-wise.pdf",
+     "reference_date": "2026-10-01", "scope": "cumulative_2002-04-01_to_2026-10-01",
+     "values": {"trained": 97347, "ventures": 42768},
+     "units": {"trained": "persons", "ventures": "ventures"}},
+    {"id": "nabard_xii_f_fy2026-27", "agency": "NABARD", "source_url": "https://www.agriclinics.net/GCDocuments/239.pdf",
+     "reference_date": "2026-09-30", "scope": "fy_2026-27_to_date",
+     "values": {"schemes": 245, "subsidy_released": 1135.03},
+     "units": {"schemes": "schemes", "subsidy_released": "rupees_lakh"}},
+    {"id": "nabard_xii_f_cumulative", "agency": "NABARD", "source_url": "https://www.agriclinics.net/GCDocuments/239.pdf",
+     "reference_date": "2026-09-30", "scope": "cumulative",
+     "values": {"schemes": 4559, "subsidy_released": 18990.36},
+     "units": {"schemes": "schemes", "subsidy_released": "rupees_lakh"}}
+  ],
+  "dataset_quality_report": {
+    "source": "AIKosh Data Quality Score Report (Beta)", "assessed": "2025-12-01",
+    "overall": 4.25, "hygiene_integrity": 5.0, "consistency_usability": 5.0, "maintenance_documentation": 2.86,
+    "missing_metadata": ["tags", "year_range", "license"], "assessed_size_kb": 574.28,
+    "metadata": {"source_org": "Department of Agriculture & Farmers Welfare", "frequency": "Monthly",
+                 "last_modified": "2025-12-15", "geographical_coverage": "All States/UTs",
+                 "visibility": "Restricted", "primary_key": null, "time_granularity": null, "license": null}
+  }
+}
